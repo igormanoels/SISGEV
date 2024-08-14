@@ -17,3 +17,5 @@ Esse projeto consiste em uma aplicação em Java, com implementação de um Banc
 - Java Version - [Java SE 17 Archive](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - IDE Utilizada - [Eclipse 2024-06](https://eclipseide.org/)
 - Java FX - [JavaFX and Eclipse](https://openjfx.io/openjfx-docs/#introduction)
+- Diagramas - [Draw.io](https://www.drawio.com/)
+- SQL Server - [SQL Server Developer](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
