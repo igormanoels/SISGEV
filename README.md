@@ -11,7 +11,7 @@ Esse projeto consiste em uma aplicação em Java, com implementação de um Banc
 ## **Autores**
 - [Felype Dantas](https://github.com/FelypeDantas)
 - [Igor Manoel](https://github.com/igormanoels)
-- [Vitória]()
+- [Vitória](https://github.com/vitoria2469)
 
 ## **Referências**
 - Java Version - [Java SE 17 Archive](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
