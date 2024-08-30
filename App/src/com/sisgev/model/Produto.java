@@ -6,6 +6,7 @@ public class Produto
 	private String nome;
 	private String marca;
 	private float preco;
+	private int quantidade;
 	private String validade;
 	
 	// Construtores da classe
@@ -16,7 +17,8 @@ public class Produto
 		this.nome = strProduto[1];
 		this.marca = strProduto[2];
 		this.preco= Float.parseFloat(strProduto[3]);
-		this.validade = strProduto[4];
+		this.quantidade = Integer.parseInt(strProduto[4]);
+		this.validade = strProduto[5];
 	}
 
 	
@@ -61,10 +63,21 @@ public class Produto
 		this.validade = validade;
 	}
 	
+	public int getQuantidade() {
+		return quantidade;
+	}
+	
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	
+	
+	
 	// To String
 	@Override
 	public String toString() {
-		return "Produto: " + nome + ", Marca: " + marca + ", Preço: " + preco;
+		float valorEstoque = preco * quantidade;
+		return "\t" + codigoBarras + "\t" + validade + "\t" + nome + "\t" + marca + "\t" + preco + "\t" + quantidade + "\t" + valorEstoque;
 	}
 	
 }
