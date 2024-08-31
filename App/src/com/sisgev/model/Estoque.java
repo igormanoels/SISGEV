@@ -51,6 +51,7 @@ public class Estoque
 					escreva.write(p.toString());
 					escreva.newLine();
 				}
+				escreva.close();
 			} catch (Exception e) {
 				throw new IllegalArgumentException(e);
 			}
