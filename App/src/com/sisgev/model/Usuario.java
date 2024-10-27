@@ -46,5 +46,9 @@ public class Usuario {
 		this.email = email;
 	}
 	
+	@Override
+	public String toString() {
+		return "Nome: " + this.nome +"\nEmail: " + this.email;
+	}
 	
 }
