@@ -3,7 +3,7 @@ package com.sisgev.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sisgev.model.Usuario;
+import com.sisgev.model.empresa.Usuario;
 
 public class UsuarioController {
 

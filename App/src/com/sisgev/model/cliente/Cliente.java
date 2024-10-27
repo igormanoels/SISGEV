@@ -1,4 +1,6 @@
-package com.sisgev.model;
+package com.sisgev.model.cliente;
+
+import com.sisgev.model.Endereco;
 
 public class Cliente 
 {

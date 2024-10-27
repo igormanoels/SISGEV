@@ -1,6 +1,8 @@
-package com.sisgev.model;
+package com.sisgev.model.fornecedor;
 
 import java.time.LocalDate;
+
+import com.sisgev.model.empresa.Empresa;
 
 public class Fornecedor extends Empresa {
 	

@@ -3,6 +3,8 @@ package com.sisgev.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.sisgev.model.empresa.Usuario;
+
 public class GestaoUsuario {
 	private List<Usuario> usuarios;
 	

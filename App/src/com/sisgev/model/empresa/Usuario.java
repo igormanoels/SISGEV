@@ -1,4 +1,4 @@
-package com.sisgev.model;
+package com.sisgev.model.empresa;
 
 public class Usuario {
 	
