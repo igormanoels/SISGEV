@@ -8,14 +8,12 @@ public class Cliente
 	private String nome;
 	private Endereco endereco;
 	
-	// Construtores da classe
 	public Cliente(String...str) {
 		this.cpf = str[0];
 		this.nome = str[1];
 		this.endereco = new Endereco(str[2],str[3],str[4],str[5],str[6],str[7],str[8]);
 	}
 	
-	// Getters and Setters
 	public String getCpf() {
 		return cpf;
 	}

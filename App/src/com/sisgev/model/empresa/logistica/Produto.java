@@ -1,4 +1,4 @@
-package com.sisgev.model;
+package com.sisgev.model.empresa.logistica;
 
 public class Produto 
 {

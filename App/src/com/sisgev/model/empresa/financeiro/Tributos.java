@@ -1,4 +1,4 @@
-package com.sisgev.model;
+package com.sisgev.model.empresa.financeiro;
 
 public class Tributos {
 	private float icms = 18f;
