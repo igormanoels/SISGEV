@@ -5,7 +5,7 @@ public class Tributos {
 	private float pis = 0.65f;
 	private float cofins = 0.3f;
 	
-	public float gerarTributacao(float valor) {
+	public float calcularTributacao(float valor) {
 		return calcIcms(valor) + calcPis(valor) + calcCofins(valor);
 	}
 	

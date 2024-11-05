@@ -26,6 +26,6 @@ public class Vendas {
 		this.caixa.registrarVenda();
 	}
 	
-	public void imprimirRecibo() {}
+	private void imprimirRecibo() {}
 
 }

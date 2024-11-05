@@ -5,12 +5,18 @@ public class Caixa {
 	private double saldoCaixa = 0.0d;
 	private int numeroVendas = 0;
 	
-	public void sacarDoCaixa(String valor) {
-		this.saldoCaixa = this.saldoCaixa - (Integer.parseInt(valor));
+	public String sacarDoCaixa(String valor) {
+		if (Double.parseDouble(valor) <= this.saldoCaixa) {
+			this.saldoCaixa = this.saldoCaixa - (Double.parseDouble(valor));
+			return "Saque efetuado!";
+		} else {
+			return "O saldo é inferior ao solicitado.";
+		}
 	}
 	
-	public void depositarNoCaixa(String valor) {
+	public String depositarNoCaixa(String valor) {
 		this.saldoCaixa = this.saldoCaixa + (Integer.parseInt(valor));
+		return "Saque efetuado!";
 	} 
 	
 	public String relatorioCaixa() {
