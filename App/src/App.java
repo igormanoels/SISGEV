@@ -1,4 +1,6 @@
 
+import com.sisgev.controller.AppController;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -8,16 +10,20 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 public class App extends Application {
+
+    
+
     public static void main(String[] args) throws Exception {
         launch(args);
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage stage) throws Exception {
+        AppController control = new AppController(stage);
         GridPane principal = new GridPane();
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(principal, 800, 600));
-        primaryStage.show();
+        stage.setTitle("Hello World");
+        stage.setScene(new Scene(principal, 800, 600));
+        stage.show();
 
         Label lbsisgev = new Label("SISGEV");
         TextField txtUsuario = new TextField("Digite seu usuário");
@@ -28,6 +34,9 @@ public class App extends Application {
         principal.add(txtUsuario, 1, 0);
         principal.add(txtSenha, 1, 1);
         principal.add(btnLogin, 1, 2);
+
+
+        btnLogin.setOnAction(e -> control.exibirCaixaView());
         
     }
 }
