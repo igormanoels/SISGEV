@@ -1,17 +1,18 @@
+package com.sisgev.view;
+
 import com.sisgev.controller.AppController;
 
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.VBox;
 
 public class ClienteView {
     
-    private AppController controller;
+    private AppController control;
 
     public ClienteView(AppController controller) {
-        this.controller = controller;
+        this.control = controller;
     }
 
     public Scene getScene() {
